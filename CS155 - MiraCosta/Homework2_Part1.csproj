@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Homework2_Part2\Homework2_Part2.csproj" />
+  </ItemGroup>
+
 </Project>

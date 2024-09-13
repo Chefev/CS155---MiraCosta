@@ -1,0 +1,34 @@
+﻿<Window x:Class="Homework3_Part2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework3_Part2"
+        mc:Ignorable="d"
+        Title="Change Calculator" Height="450" Width="800">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Enter The Price Of The Item:" VerticalAlignment="Top" Height="33" Width="234" TextAlignment="Center" Name="TitleBlock" FontSize="18px"/>
+        <ComboBox HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Width="120" Text="Item Price" Name="OptionsBox">
+            <ComboBoxItem Content="$0.25"/>
+            <ComboBoxItem Content="$0.30"/>
+            <ComboBoxItem Content="$0.35"/>
+            <ComboBoxItem Content="$0.40"/>
+            <ComboBoxItem Content="$0.45"/>
+            <ComboBoxItem Content="$0.50"/>
+            <ComboBoxItem Content="$0.55"/>
+            <ComboBoxItem Content="$0.60"/>
+            <ComboBoxItem Content="$0.65"/>
+            <ComboBoxItem Content="$0.70"/>
+            <ComboBoxItem Content="$0.75"/>
+            <ComboBoxItem Content="$0.80"/>
+            <ComboBoxItem Content="$0.85"/>
+            <ComboBoxItem Content="$0.90"/>
+            <ComboBoxItem Content="$0.95"/>
+            <ComboBoxItem Content="$1.00"/>
+        </ComboBox>
+        <Button Content="Calculate Change" Name="SubmitButton" FontSize="14px" HorizontalAlignment="Center" Margin="0,91,0,0" VerticalAlignment="Top" Height="27" Width="153" Click="SubmitButton_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="47" Width="234" TextAlignment="Center" Name="CalculatedChangeBlock"/>
+
+    </Grid>
+</Window>
