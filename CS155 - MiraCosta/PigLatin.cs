@@ -1,4 +1,4 @@
-﻿/// Homework No. 2
+﻿/// Homework No.2
 /// File Name: PigLatin.cs
 /// @author: Parker Verran
 /// Date:  September 1, 2024
